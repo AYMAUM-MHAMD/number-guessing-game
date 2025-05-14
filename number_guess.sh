@@ -8,7 +8,7 @@ PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
 # Generate secret number
 SECRET_NUMBER=$(( RANDOM % 1000 + 1 ))
 NUMBER_OF_GUESSES=0
-
+# اختبار ثالث
 echo "Enter your username:"
 read USERNAME
 
