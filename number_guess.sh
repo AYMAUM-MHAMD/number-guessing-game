@@ -2,6 +2,7 @@
 #!/bin/bash
 # تعليق وهمي لتحسين تنسيق الملف
 PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
+# تحسين مبدئي لعرض الرسائل
 
 # Generate secret number
 SECRET_NUMBER=$(( RANDOM % 1000 + 1 ))
