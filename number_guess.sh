@@ -4,7 +4,7 @@
 PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
 # تحسين مبدئي لعرض الرسائل
 # إضافة تعليق وهمي لاختبار commit
-
+# تحسين ثاني
 # Generate secret number
 SECRET_NUMBER=$(( RANDOM % 1000 + 1 ))
 NUMBER_OF_GUESSES=0
